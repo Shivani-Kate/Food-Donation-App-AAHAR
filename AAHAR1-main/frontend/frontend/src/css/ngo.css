@@ -1,0 +1,101 @@
+/* ngo.css */
+
+.ngo-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.ngo-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ngo-header h1 {
+  color: #4caf50;
+}
+
+.ngo-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.ngo-tabs button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.ngo-tabs button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.ngo-tabs button:not(.active) {
+  background-color: #ccc;
+  color: black;
+}
+
+.ngo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ngo-list li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ngo-list li strong {
+  color: #333;
+}
+
+.ngo-list li span {
+  display: block;
+  margin-top: 5px;
+  color: #555;
+}
+
+.ngo-button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.ngo-button:hover {
+  background-color: #45a049;
+}
+
+.logout {
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.logout:hover {
+  background-color: #d32f2f;
+}

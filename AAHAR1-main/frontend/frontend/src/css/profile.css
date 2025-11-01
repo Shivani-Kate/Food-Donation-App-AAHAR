@@ -1,0 +1,105 @@
+
+.profile-page {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile-page p {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #555;
+}
+
+.profile-page input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-page button:nth-of-type(1) {
+  background-color: #0078D4;
+  color: white;
+}
+
+.profile-page button:nth-of-type(2) {
+  background-color: #ccc;
+  color: black;
+}
+
+
+.profile-page .tabs {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.profile-page .tabs button {
+  flex: 1;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.profile-page .tabs .active {
+  background-color: #0f9a2f;
+  color: white;
+}
+
+.profile-page .tabs .inactive {
+  background-color: #ccc;
+  color: black;
+}
+
+
+.profile-page ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.profile-page li {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-page li button {
+  background-color: #f44336;
+  color: green;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.profile-page .logout button {
+  color: rgb(7, 70, 129);
+}
+.profile-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.profile-avatar h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,52 @@
+.admin-container {
+  text-align: center;
+  padding: 90px;
+ box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+  background-color: #f8f8f8;
+  min-height: 100vh;
+ 
+}
+
+.admin-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  padding-top: 300px;
+}
+
+.admin-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.admin-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-card h3 {
+  color: #2c7a7b;
+  margin-bottom: 10px;
+}
+
+.admin-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-card button:hover {
+  background-color: #218838;
+}

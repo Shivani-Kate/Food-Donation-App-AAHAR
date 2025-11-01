@@ -1,0 +1,83 @@
+
+.receiver-page {
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.receiver-page h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.receiver-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+
+.filter-form {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.filter-form input, .filter-form select, .filter-form button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+   
+}
+
+.filter-form button {
+  background-color: #0078D4;
+  color: white;
+}
+
+.filter-form button:hover {
+  background-color: #005fa3;
+}
+
+
+.results {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.donation-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.donation-card h4 {
+  margin-top: 0;
+  color: #0288d1;
+}
+
+.donation-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.donation-card button:first-of-type {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.donation-card button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+body {
+  padding-top: 70px; 
+}

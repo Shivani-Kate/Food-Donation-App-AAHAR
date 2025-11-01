@@ -1,0 +1,108 @@
+
+
+body {
+  margin: 0;
+   padding: 40px 30px;
+   margin-top: 150px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.signin-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.signin-container {
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  min-height: 400px;
+  padding: 40px 30px; 
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+
+.signin-container h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+
+.signin-container input[type="email"],
+.signin-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.signin-container input[type="email"]:focus,
+.signin-container input[type="password"]:focus {
+  border-color: #0078D4;
+}
+
+
+.signin-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signin-container button:hover {
+  background-color: #005fa3;
+}
+
+
+.signin-container p.error {
+  color: red;
+  text-align: center;
+  margin: 0;
+}
+
+
+@media (max-width: 500px) {
+  .signin-container {
+    padding: 30px 20px;
+  }
+  .signin-container h2 {
+    font-size: 24px;
+  }
+  .signin-container input[type="email"],
+  .signin-container input[type="password"] {
+    font-size: 13px;
+  }
+  .signin-container button {
+    font-size: 15px;
+  }
+}

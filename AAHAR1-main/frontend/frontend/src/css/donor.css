@@ -1,0 +1,94 @@
+
+.donor-page {
+  padding: 40px 20px;
+  
+  min-height: 90vh;
+  font-family: 'Segoe UI', sans-serif;
+   padding-top: 100px;
+}
+form label,
+form div {
+  margin-bottom: 20px;
+}
+
+.donor-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #131212;
+}
+
+
+form {
+  max-height: 80px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form fieldset {
+  border: 2px solid #f8f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  background: #f6f5f4;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+form legend {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #0f0e0e;
+  margin-bottom: 20px;
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"],
+form input[type="email"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Checkbox and Radio Groups */
+form div {
+  margin-bottom: 20px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 8px;
+}
+
+form label input[type="checkbox"],
+form label input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+form button {
+  margin-top: 20px;
+  background-color: #32a612;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #208f0a;
+}
